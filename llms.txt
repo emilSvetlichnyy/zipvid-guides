@@ -1,0 +1,36 @@
+# Zipvid
+
+> Sourced answers about compressing and sharing videos on iPhone, from the developer of Zipvid: Video Compressor. Each page has a short answer, steps, FAQ and a dated source list.
+
+## Entity
+- App: Zipvid: Video Compressor (bundle com.zipvid.app), iPhone
+- Developer: Emil Svetlichnyy
+- App Store: https://apps.apple.com/app/apple-store/id6837300041
+- Website: https://emilsvetlichnyy.app/zipvid-guides/
+
+## What the app does (claim-safe)
+- Compresses videos from the Photos library on the iPhone itself; nothing is uploaded to a server
+- Shows an estimated result before you start
+- Compresses with HEVC or with widely compatible H.264, and saves the smaller copy back to the library
+- Keeps creation date and location in the compressed copy
+- Free: 3 compressions, up to 2 videos at a time
+- Zipvid Pro is a one-time purchase, no subscription: unlimited compressions, batch of 3 or more videos, manual mode (resolution and format), size presets for 16 MB, 10 MB and 20 MB targets
+- No ads; anonymous usage statistics only
+
+## Not claimed
+- Specific percentage or MB savings (results depend on the video)
+- Lossless or no quality loss
+- Best / number one app
+- Rating or download counts
+- That a compressed video will always fit a messenger limit
+
+## Pages
+### Compress videos
+- [How to compress a video on iPhone](https://emilsvetlichnyy.app/zipvid-guides/compress/compress-video-iphone/): Three ways to make a video file smaller on iPhone, and what each one costs in quality.
+### Send & share
+- [How to compress a video for WhatsApp on iPhone](https://emilsvetlichnyy.app/zipvid-guides/share/compress-video-for-whatsapp/): WhatsApp's direct video limit is about 16 MB. Here is how to get under it.
+- [How to compress a video for Discord on iPhone](https://emilsvetlichnyy.app/zipvid-guides/share/compress-video-for-discord/): The Discord limit depends on your plan. Compress to about 10 MB and it works almost everywhere.
+- [How to send a large video by email from iPhone](https://emilsvetlichnyy.app/zipvid-guides/share/send-large-video-email-iphone/): Most email services cap attachments near 25 MB. Here are the ways around it.
+### Formats & storage
+- [HEVC vs H.264 on iPhone: which one to choose](https://emilsvetlichnyy.app/zipvid-guides/formats/hevc-vs-h264-iphone/): One makes smaller files, the other plays almost everywhere.
+- [Why videos take so much space on iPhone](https://emilsvetlichnyy.app/zipvid-guides/formats/iphone-video-storage/): What decides the size of a video, and the settings that make future videos smaller.

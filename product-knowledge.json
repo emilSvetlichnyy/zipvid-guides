@@ -1,0 +1,28 @@
+{
+  "app": {
+    "displayName": "Zipvid",
+    "fullName": "Zipvid: Video Compressor",
+    "bundleId": "com.zipvid.app",
+    "trackId": 6837300041,
+    "appStoreUrl": "https://apps.apple.com/app/apple-store/id6837300041",
+    "providerToken": "128515069",
+    "developerName": "Emil Svetlichnyy",
+    "siteBase": "https://emilsvetlichnyy.app/zipvid-guides"
+  },
+  "claimSafe": [
+    "Compresses videos from the Photos library on the iPhone itself; nothing is uploaded to a server",
+    "Shows an estimated result before you start",
+    "Compresses with HEVC or with widely compatible H.264, and saves the smaller copy back to the library",
+    "Keeps creation date and location in the compressed copy",
+    "Free: 3 compressions, up to 2 videos at a time",
+    "Zipvid Pro is a one-time purchase, no subscription: unlimited compressions, batch of 3 or more videos, manual mode (resolution and format), size presets for 16 MB, 10 MB and 20 MB targets",
+    "No ads; anonymous usage statistics only"
+  ],
+  "doNotClaim": [
+    "Specific percentage or MB savings (results depend on the video)",
+    "Lossless or no quality loss",
+    "Best / number one app",
+    "Rating or download counts",
+    "That a compressed video will always fit a messenger limit"
+  ]
+}
