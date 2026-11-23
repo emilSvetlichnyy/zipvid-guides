@@ -78,6 +78,8 @@ def shell(*, rel: str, depth: int, title: str, description: str, body: str, sche
   <meta property="og:title" content="{esc(title)}">
   <meta property="og:description" content="{esc(description)}">
   <meta property="og:url" content="{canon}">
+  <meta property="og:image" content="{BASE}/img/zipvid-freed-up.png">
+  <meta name="twitter:card" content="summary_large_image">
   <meta name="apple-itunes-app" content="app-id={PK['app']['trackId']}">
   <link rel="stylesheet" href="{p}styles.css">
 {ld}
@@ -97,6 +99,12 @@ def shell(*, rel: str, depth: int, title: str, description: str, body: str, sche
 </body>
 </html>
 """
+
+
+
+def figure(rel_prefix: str, name: str, alt: str, caption: str, w: int = 1100, h: int = 2390) -> str:
+    return (f'<figure class="shot"><img src="{rel_prefix}img/{name}.png" alt="{esc(alt)}" width="{w//4}" height="{h//4}" loading="lazy">'
+            f'<figcaption>{esc(caption)}</figcaption></figure>')
 
 
 def crumbs(items: list[tuple[str, str | None]]) -> str:
@@ -159,6 +167,7 @@ def page_html(pg: dict) -> tuple[str, str]:
         <p class="lead">{esc(pg["lead"])}</p>
         <p class="meta">Checked {pg.get("checked", CHECKED)} · by {esc(DEV)}, developer of {NAME}</p>
         <div class="answer"><strong>Short answer</strong>{pg["answer"]}</div>
+        {figure(p, pg["img"][0], pg["img"][1], pg["img"][2]) if pg.get("img") else ""}
 {steps}
 {pg.get("body", "")}
         <section class="card cta">
@@ -241,6 +250,7 @@ def home_html() -> str:
       <p class="lead">{len(PAGES)} short, sourced answers to what people search: compress a video on iPhone, fit it under the WhatsApp, Discord or email limit, and HEVC vs H.264.</p>
       <section class="card cta"><h2>{NAME}: Video Compressor</h2>
       <p>{NAME} makes videos smaller right on your iPhone: pick videos, see the estimate, compress with HEVC or H.264 and save the smaller copy. Nothing is uploaded. {appstore_btn("home")}</p></section>
+      {figure(p, "zipvid-freed-up", "Zipvid screen showing storage freed up after compressing videos, with before and after sizes per video", "Zipvid results screen (sample data). Capture date and location are kept.")}
       {"".join(blocks)}
     </main>"""
     schemas = [

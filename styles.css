@@ -26,3 +26,4 @@ details{border-bottom:1px solid var(--line);padding:10px 0}summary{cursor:pointe
 .tiles a{display:block;background:var(--card);border:1px solid var(--line);border-radius:12px;padding:12px 14px;text-decoration:none;color:var(--ink);font-weight:600}
 .tiles a span{display:block;font-weight:400;color:var(--muted);font-size:.88rem;margin-top:2px}
 .site-footer{margin-top:48px;padding-top:20px;border-top:1px solid var(--line);font-size:.9rem;color:var(--muted)}.site-footer a{margin-right:12px}
+.shot{margin:20px 0;text-align:center}.shot img{max-width:240px;height:auto;border-radius:12px;border:1px solid var(--line)}.shot figcaption{font-size:.85rem;color:var(--muted);margin-top:6px}

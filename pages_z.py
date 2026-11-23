@@ -76,6 +76,7 @@ add(
 <tr><td>Need the original quality</td><td>Send as a document (higher limit, no compression)</td></tr>
 </tbody></table>
 <p>Related: <a href="../compress-video-for-discord/">Discord limit</a>, <a href="../send-large-video-email-iphone/">email limit</a>.</p>""",
+    img=("zipvid-messenger-presets", "Zipvid quality screen with a messenger preset set to WhatsApp 16 MB, resolution and format options", "Zipvid quality screen (sample data): messenger presets are part of Zipvid Pro."),
     cta="Zipvid Pro has a 16 MB size preset made for this: it targets the WhatsApp-style limit so you do not have to guess settings. Results depend on the video, and a long clip may need trimming first.",
     faqs=[
         ("What is the WhatsApp video size limit?", "Sources say about 16 MB when you send a video directly. Documents allow far larger files, but they are not re-encoded."),
