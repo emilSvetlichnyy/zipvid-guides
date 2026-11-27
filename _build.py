@@ -93,6 +93,7 @@ def shell(*, rel: str, depth: int, title: str, description: str, body: str, sche
 {body}
     <footer class="site-footer">
       <p>{foot} <a href="{p}llms.txt">llms.txt</a></p>
+      <p>More from the same developer: <a href="https://emilsvetlichnyy.app/swipeo-guides/">Swipeo photo cleaner</a> · <a href="https://emilsvetlichnyy.app/exif-plus/">EXIF+ metadata remover</a> · <a href="https://emilsvetlichnyy.app/chart-maker/">VIA chart maker</a></p>
       <p>© {date.today().year} {esc(DEV)}. {NAME} is an iPhone app for making videos smaller. Facts about apps and limits come from the sources listed on each page and can change over time.</p>
     </footer>
   </div>
